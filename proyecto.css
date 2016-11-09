@@ -1,0 +1,30 @@
+body{
+padding: 5px;
+
+}
+header{
+	padding: 20px;
+}
+header img{
+	width: 33%;
+}
+nav{
+	display: inline-block;
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+}
+@media(min-width: 768px) {
+	.navbar .navbar-nav{
+		display: inline-block;
+		float: none;
+		vertical-align: top;
+	}
+	.navbar .navbar-collapse{
+		text-align: center;
+	}
+}
+.navdiv{
+	margin: 5px 0 5px;
+
+}
